@@ -1,0 +1,82 @@
+
+body {
+background-color: #76c893;
+font-family: Open-sans;
+text-align: center;
+color: #184e77;
+font-size: 30px;
+line-height: 50px;
+}
+
+.white-box img {
+  height: 300px;
+  text-align: center;
+}
+#name {
+  font-size: 200px;
+}
+
+h1, h2, h3 {
+color: #b5e48c;
+font-family: Raleway;
+font-weight: lighter;
+font-size: 20px;
+line-height: 10px;
+}
+
+a {
+color: #168aad;
+text-decoration: none;
+}
+
+a:hover {
+color: #d9ed92;
+}
+
+.white-box {
+background: #e7dfdf;
+padding: 20px;
+margin: 20px;
+border: 1px solid rgb(0, 255, 55);
+border-radius: 5px;
+box-shadow: 2px 2px 5px rgba(10,10,10,.4)
+}
+
+.container {
+width: 1500px;   /* This sets the width */
+margin: 0 auto;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  display: inline-block;
+  padding-left: 0px;
+}
+
+.social-icon a  {
+ padding: 20px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
